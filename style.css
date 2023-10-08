@@ -1,3 +1,6 @@
+body{
+    background-color: blue;
+}
 img {
     animation-duration: 2s;
     animation-name: slidein;
