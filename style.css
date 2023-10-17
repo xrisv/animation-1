@@ -1,0 +1,92 @@
+body{
+    background-color: bisque;
+}
+img {
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 0%;
+    }
+  
+    to {
+      margin-right: 0%;
+      width: 20%;
+    }
+  }
+  .photo-2 {
+    animation-duration: 5s;
+    animation-name: slide;
+    animation-iteration-count: infinite;
+  }
+  @keyframes slide {
+    from {
+      margin-bottom: 100%;
+      width: 0%;
+    }
+  
+    to {
+      margin-right: 0%;
+      width: 20%;
+    }
+  }
+ .photo-3{
+    animation-duration: 5s;
+    animation-name: clockwise-movement;
+    animation-iteration-count: infinite;
+    width: 250px;
+  }
+  @keyframes clockwise-movement {
+    0% {
+      transform: translate(100px, 0px);
+    }
+    25% {
+      transform: translate(100px, 100px);
+    }
+    50% {
+      transform: translate(0px, 100px);
+    }
+    75% {
+      transform: translate(0px, 0px);
+    }
+    100% {
+      transform: translate(100px, 0px);
+    }
+  }
+  .box {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 1000px;
+    top: 0;
+  }
+
+  .photo-4{
+    animation-duration: 1s;
+      animation-name: move-to-the-side;
+      animation-iteration-count: infinite;
+      width: 250px;
+    }
+  @keyframes move-to-the-side {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(150px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+.box2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1000px;
+    top: 300px;
+  }
+
